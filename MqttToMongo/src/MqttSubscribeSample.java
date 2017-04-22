@@ -10,7 +10,7 @@ public class MqttSubscribeSample implements MqttCallback {
 	 
 	public static void main(String[] args) {
 
-         String topic        = "iscte_sid_2016_S#";
+         String topic        = "iscte_sid_2016_S1";
          String content      = "Message from MqttPublishSample";
          int qos             = 2;
          String broker       = "tcp://iot.eclipse.org:1883";

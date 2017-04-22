@@ -9,7 +9,7 @@ import org.eclipse.paho.client.mqttv3.MqttClient;
 
         public static void main(String[] args) {
 
-            String topic        = "testSubscription";
+            String topic        = "iscte_sid_2016_S1";
             String content      = "Boas meus putos";
             int qos             = 2;
             String broker       = "tcp://iot.eclipse.org:1883";
